@@ -52,7 +52,10 @@ nav a:hover {
 }
 
 a {
-  color: var(--colour-dark);
-  font-family: var(--font-primary, sans-serif);
+  color: inherit;
   text-decoration: none;
+}
+
+a:hover {
+  background: var(--colour-gray);
 }
