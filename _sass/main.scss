@@ -42,13 +42,13 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover, .current {
-  padding: 0 0 3px 0;
-  border-bottom: 3px solid var(--colour-dark);
+nav a:hover {
+   color: var(--colour-dark);
 }
 
 .current {
-  border-color: var(--colour-gray);
+  padding: 0 0 3px 0;
+  border-bottom: 3px solid;
 }
 
 a {
