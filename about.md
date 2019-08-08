@@ -2,5 +2,5 @@
 layout: default
 title: About
 ---
-# Fitri Ali
-Hello, I'm Fitri.
+## Hello, I'm Fitri Ali.
+[ To-do: About ]
