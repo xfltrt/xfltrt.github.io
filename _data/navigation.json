@@ -3,10 +3,10 @@
   "link": "/about.html"
 },
 {
-  "name": "Posts",
+  "name": "All Posts",
   "link": "/"
 },
 {
   "name": "Categories",
-  "link": "/categories.html"
+  "link": "/"
 }]
