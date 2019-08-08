@@ -51,9 +51,10 @@ nav a:hover {
   padding: 0 0 3px 0;
 }
 
-a {
+#posts a {
   color: inherit;
   text-decoration: none;
+  transition-property: all;
 }
 
 #posts a:hover {
