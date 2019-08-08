@@ -63,3 +63,17 @@ nav a:hover {
 .details {
   color: var(--colour-gray);
 }
+
+footer {
+  padding-top: 50px;
+}
+
+footer a {
+  background: var(--colour-gray);
+  border-radius: 5px;
+  color: var(--colour-dark);
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 5px 10px;
+  text-decoration: none;
+}
