@@ -61,7 +61,8 @@ nav a:hover {
 }
 
 .post {
-  border-bottom: 1px solid var(--colour-gray)
+  border-bottom: 1px solid var(--colour-gray);
+  padding-bottom: 24px;
 }
 
 .post p {
