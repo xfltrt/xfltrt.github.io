@@ -60,6 +60,14 @@ nav a:hover {
   font-style: italic;
 }
 
+.post {
+  border-bottom: 1px solid var(--colour-gray)
+}
+
+.post p {
+  margin-top: 0; 
+}
+
 .details {
   color: var(--colour-gray);
 }
