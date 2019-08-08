@@ -1,8 +1,8 @@
 :root {
   --colour-dark: #09203f;
   --colour-gray: #d5d5d5;
-  --colour-primary: #537895;
-  --colour-white: #fff;
+  --colour-primary: #09203f;
+  --colour-white: #ffffff;
   --font-primary: "Noto Sans", sans-serif;
   --font-secondary: "Roboto Slab", sans-serif;
 }
@@ -44,7 +44,7 @@ nav a {
 
 nav a:hover {
   padding: 0 0 3px 0;
-  border-bottom: 3px solid;
+  border-bottom: 3px solid var(--colour-dark);
 }
 
 .current {
