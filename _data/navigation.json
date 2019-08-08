@@ -1,12 +1,12 @@
 [{
-  "name": "Home",
-  "link": "/"
-},
-{
   "name": "About",
   "link": "/about.html"
 },
 {
+  "name": "Posts",
+  "link": "/"
+},
+{
   "name": "Categories",
-  "link": "/about.html"
+  "link": "/categories.html"
 }]
