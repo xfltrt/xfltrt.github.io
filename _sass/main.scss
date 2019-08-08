@@ -35,10 +35,10 @@ nav {
 }
 
 nav a {
-  margin: 0 20px 0 0;
-  padding: 0 0 6px 0;
   color: var(--colour-gray);
   font-weight: 700;
+  margin: 0 20px 0 0;
+  padding: 0 0 6px 0;
   text-decoration: none;
 }
 
@@ -47,8 +47,8 @@ nav a:hover {
 }
 
 .current {
-  padding: 0 0 3px 0;
   border-bottom: 3px solid;
+  padding: 0 0 3px 0;
 }
 
 a {
@@ -58,4 +58,11 @@ a {
 
 #posts a:hover {
   text-decoration: underline;
+}
+
+.details {
+  color: var(--colour-gray);
+  font-family: var(--font-secondary);
+  font-size: 0.8rem;
+  margin-top: 0;
 }
