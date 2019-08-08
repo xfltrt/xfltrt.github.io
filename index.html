@@ -4,11 +4,14 @@ title: Fitri Ali
 ---
 <div id="posts">
   {% for post in site.posts %}
+  <div class="post">
     <a href="{{ post.url }}">
       <div>
         <h2>{{ post.title }}</h2>
-        <p>{{ post.excerpt }}</p>
+        <p class="details">Posted on {{ post.date | date_to_long_string }}</p>
+        <p>{{ post.excerpt }} <em>Read more</em></p>
       </div>
     </a>
+  </div>
   {% endfor %}
 </div>
