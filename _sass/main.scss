@@ -1,6 +1,6 @@
 :root {
   --colour-dark: #09203f;
-  --colour-gray: #f5f7fa;
+  --colour-gray: #d5d5d5;
   --colour-primary: #537895;
   --colour-white: #fff;
   --font-primary: "Noto Sans", sans-serif;
@@ -41,7 +41,11 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover, .current {
+nav a:hover {
+ text-decoration: underline; 
+}
+
+.current {
   color: var(--colour-dark);
 }
 
