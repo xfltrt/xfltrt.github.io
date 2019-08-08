@@ -62,7 +62,16 @@ nav a:hover {
 
 .post {
   border-bottom: 1px solid var(--colour-gray);
-  padding-bottom: 24px;
+  padding: 24px 0;
+}
+
+#post:first-child {
+  padding-top: 0; 
+}
+
+#post:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
 }
 
 .post p {
