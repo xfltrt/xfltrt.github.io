@@ -1,8 +1,11 @@
 <nav>
-  <a href="/" {% if page.url == "/" %}style="color: blue;"{% endif %}>
-    Home
-  </a>
-  <a href="/about.html" {% if page.url == "/about.html" %}style="color: blue;"{% endif %}>
-    About
-  </a>
+  <ul>
+  {% for item in site.data.navigation %}
+    <li>
+      <a href="{{ item.link }}" {% if page.url == item.link %}style="color: blue;"{% endif %}>
+      {{ item.name }}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
 </nav>
