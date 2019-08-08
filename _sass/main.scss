@@ -26,17 +26,19 @@ h1, h1, h3, h4, h5, h6 {
   padding: 0;
 }
 
+p {
+  line-height: 1.6rem;
+}
+
 a {
-  border-radius: 7px;
-  padding: 5px 10px;
-  background: #0b8793;
-  color: #fff;
+  padding: 5px 10px 5px 0;
+  color: var(--colour-gray);
   font-weight: 700;
   text-decoration: none;
 }
 
 a:hover {
-  border-right: 10px solid #fff;
+  color: var(--colour-dark);
 }
 
 .current {
