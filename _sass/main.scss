@@ -37,7 +37,7 @@ nav {
 nav a {
   color: var(--colour-gray);
   font-weight: 700;
-  margin: 0 20px 0 0;
+  margin: 0 24px 0 0;
   padding: 0 0 6px 0;
   text-decoration: none;
 }
@@ -48,7 +48,7 @@ nav a:hover {
 
 .current {
   border-bottom: 3px solid;
-  padding: 0 0 3px 0;
+  padding: 0 0 2px 0;
 }
 
 #posts a {
@@ -65,7 +65,7 @@ nav a:hover {
 }
 
 .post p {
-  margin-top: 0; 
+  margin: 0; 
 }
 
 .details {
@@ -77,12 +77,12 @@ footer {
 }
 
 footer a {
-  background: var(--colour-gray);
+  background: #e5e5e5;
   border-radius: 5px;
   font-size: 0.85rem;
   font-weight: 700;
   color: var(--colour-dark);
-  margin-right: 10px;
-  padding: 3px 10px;
+  margin-right: 8px;
+  padding: 2px 8px;
   text-decoration: none;
 }
