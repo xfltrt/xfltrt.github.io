@@ -30,17 +30,17 @@ p {
   line-height: 1.6rem;
 }
 
-a {
-  padding: 5px 10px 5px 0;
+nav {
+  margin-bottom: 50px;
+}
+
+nav.a {
+  padding: 0 20px 0 0;
   color: var(--colour-gray);
   font-weight: 700;
   text-decoration: none;
 }
 
-a:hover {
+nav.a:hover, .current {
   color: var(--colour-dark);
-}
-
-.current {
-  color: green;
 }
