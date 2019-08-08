@@ -65,11 +65,11 @@ nav a:hover {
   padding: 24px 0;
 }
 
-#post:first-child {
+.post:first-child {
   padding-top: 0; 
 }
 
-#post:last-child {
+.post:last-child {
   border-bottom: 0;
   padding-bottom: 0;
 }
