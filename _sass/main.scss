@@ -31,20 +31,20 @@ p {
 }
 
 nav {
-  margin-bottom: 30px;
+  margin-bottom: 34px;
 }
 
 nav a {
   margin: 0 20px 0 0;
-  padding: 0 0 10px 0;
+  padding: 0 0 6px 0;
   color: var(--colour-gray);
   font-weight: 700;
   text-decoration: none;
 }
 
 nav a:hover {
-  padding: 0 0 5px 0;
-  border-bottom: 5px solid;
+  padding: 0 0 3px 0;
+  border-bottom: 3px solid;
 }
 
 .current {
@@ -52,5 +52,7 @@ nav a:hover {
 }
 
 a {
- color: var(--colour-dark); 
+  color: var(--colour-dark);
+  font-family: var(--font-primary, sans-serif);
+  text-decoration: none;
 }
