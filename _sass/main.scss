@@ -30,6 +30,10 @@ p {
   line-height: 1.5rem;
 }
 
+p:last-child {
+  margin-bottom: 0;
+}
+
 nav {
   margin-bottom: 44px;
 }
@@ -80,6 +84,7 @@ nav a:hover {
 
 .details {
   color: var(--colour-gray);
+  margin-top: 0;
 }
 
 footer {
