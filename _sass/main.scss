@@ -30,7 +30,7 @@ p {
   line-height: 1.5rem;
 }
 
-p:last-of-type {
+p:last-of-type, p:last-child {
   margin-bottom: 0;
 }
 
@@ -76,10 +76,6 @@ nav a:hover {
 .post:last-child {
   border-bottom: 0;
   padding-bottom: 0;
-}
-
-.post p {
-  margin: 0; 
 }
 
 .details {
