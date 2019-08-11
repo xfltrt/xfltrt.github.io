@@ -65,13 +65,17 @@ nav a:hover {
 }
 
 .post {
-  margin-top: 24px; 
+  margin-top: 12px; 
 }
 
 .post:first-child {
   border-bottom: 1px solid var(--colour-gray);
   margin-top: 0;
   padding-bottom: 24px; 
+}
+
+.post:nth-child(2) {
+  margin-top: 24px; 
 }
 
 .details {
