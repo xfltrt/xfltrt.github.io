@@ -9,7 +9,7 @@ title: Fitri Ali
         <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
         <p class="details">Posted on {{ post.date | date_to_long_string }}</p>
         {% if forloop.first %}
-          {{ post.content }}
+          {{ post.excerpt }}
         {% endif %}
       </div>
   </div>
