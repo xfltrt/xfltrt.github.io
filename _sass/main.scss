@@ -64,8 +64,13 @@ nav a:hover {
   font-style: italic;
 }
 
+.post {
+  margin-top: 24px; 
+}
+
 .post:first-child {
   border-bottom: 1px solid var(--colour-gray);
+  margin-top: 0;
   padding-bottom: 24px; 
 }
 
