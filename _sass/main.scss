@@ -3,13 +3,13 @@
   --colour-gray: #d5d5d5;
   --colour-primary: #09203f;
   --colour-white: #ffffff;
-  --font-primary: "Noto Sans", sans-serif;
-  --font-secondary: "Roboto Slab", sans-serif;
+  --font-primary: "Raleway", sans-serif;
+  --font-secondary: "Volkhov", sans-serif;
 }
 
 html {
   color: var(--colour-primary);
-  font-family: var(--font-primary, sans-serif);
+  font-family: var(--font-primary);
   min-height: 100vh;
 }
 
@@ -19,7 +19,12 @@ html {
   width: 90vw;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--colour-dark);
   font-family: var(--font-secondary);
   margin: 0;
@@ -30,29 +35,45 @@ p {
   line-height: 1.5rem;
 }
 
-p:last-of-type, p:last-child {
+p:last-of-type,
+p:last-child {
   margin-bottom: 0;
 }
 
 nav {
-  margin-bottom: 51px;
+  line-height: 36px;
+  margin-bottom: 36px;
 }
 
 nav a {
   color: var(--colour-gray);
-  font-weight: 700;
-  margin: 0 24px 0 0;
-  padding: 0 0 5px 0;
+  margin-left: 24px;
+  padding-bottom: 4px;
   text-decoration: none;
 }
 
 nav a:hover {
-   color: var(--colour-dark);
+  color: var(--colour-dark);
+}
+
+#logo {
+  background: var(--colour-gray);
+  color: var(--colour-white);
+  border-radius: 2px;
+  float: left;
+  font-family: var(--font-secondary);
+  font-size: 1.2rem;
+  height: 36px;
+  line-height: 36px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 36px;
 }
 
 .current {
-  border-bottom: 3px solid;
-  padding: 0 0 2px 0;
+  border-bottom: 2px solid;
+  padding-bottom: 2px;
 }
 
 #posts a {
@@ -65,33 +86,33 @@ nav a:hover {
 }
 
 .post {
-  margin-top: 8px; 
+  margin-top: 8px;
 }
 
 .post:first-child {
   border-bottom: 1px solid var(--colour-gray);
   margin-top: 0;
-  padding-bottom: 24px; 
+  padding-bottom: 24px;
 }
 
 .post:nth-child(2) {
-  margin-top: 24px; 
+  margin-top: 24px;
 }
 
 .details {
   color: var(--colour-gray);
+  font-size: 0.85rem;
   margin-top: 2px;
 }
 
 footer {
-  padding: 56px 0 24px 0;
+  padding: 36px 0 24px 0;
 }
 
 footer a {
-  background: #e5e5e5;
+  background: rgba(0,0,0,0.1);
   border-radius: 5px;
   font-size: 0.85rem;
-  font-weight: 700;
   color: var(--colour-dark);
   margin-right: 8px;
   padding: 2px 8px;
