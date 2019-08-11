@@ -35,14 +35,14 @@ p:last-of-type, p:last-child {
 }
 
 nav {
-  margin-bottom: 50px;
+  margin-bottom: 51px;
 }
 
 nav a {
   color: var(--colour-gray);
   font-weight: 700;
   margin: 0 24px 0 0;
-  padding: 0 0 6px 0;
+  padding: 0 0 5px 0;
   text-decoration: none;
 }
 
@@ -65,7 +65,7 @@ nav a:hover {
 }
 
 .post {
-  margin-top: 12px; 
+  margin-top: 8px; 
 }
 
 .post:first-child {
@@ -80,7 +80,7 @@ nav a:hover {
 
 .details {
   color: var(--colour-gray);
-  margin-top: 0;
+  margin-top: 2px;
 }
 
 footer {
