@@ -13,7 +13,7 @@ title: Fitri Ali
       {% endif %}
     {% else %}
       <div class="post-date">{{ post.date | date: "%Y, %b %d" }}</div>
-      <div class="post-title"><h2>{{ post.title }}</h2></div>
+      <div class="post-title"><a href="{{ post.url }}"><h2>{{ post.title }}</h2></a></div>
     {% endif %}
   </div>
   {% endfor %}
