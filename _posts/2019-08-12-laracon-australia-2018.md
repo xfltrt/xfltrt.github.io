@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-categories: [general, development, travel]
+category: development
 title: Laracon Australia 2018
 ---
 [ To-do: finish post ]
