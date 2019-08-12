@@ -9,6 +9,11 @@
   --font-secondary: "Volkhov", sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
 html {
   color: var(--colour-primary);
   font-family: var(--font-primary);
@@ -117,6 +122,10 @@ nav a:hover {
 .post:nth-child(2),
 .category {
   margin-top: 24px;
+}
+
+.category ul {
+  margin-bottom: 0;
 }
 
 .category li {
