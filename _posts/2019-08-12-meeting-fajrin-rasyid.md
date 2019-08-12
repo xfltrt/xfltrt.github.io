@@ -21,3 +21,7 @@ I first opted out from asking any questions and let Vanessa and Nurul lead the c
 - KPI should be the guideline for system design and delegation process.
 
 I’ve also asked if there’s any person or books in particular that he sees as inspirations. He told me he tries to read 2 books a month. Vanessa asked if he puts conscious effort into writing his blog. Which inspired me to continue writing. Thus this blog.
+
+In retrospect, I realise my questions gravitate towards what I envision myself to be. A reinforcement of everything I believe rather than pure curiosity. Bad, that I limit myself to only things I care about. Good, that I'm conscious of that fact. I will attend more of these sort of meetings in the future, and I look forward to learning more.
+
+<a href="https://medium.com/@fajrinrasyid/pelajaran-dari-brunei-7f27d79e7676">Click here</a> to read about Fajrin's visit.
