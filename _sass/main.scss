@@ -15,11 +15,11 @@
 }
 
 .clearfix:after {
-   content: " ";
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
 }
 
 html {
@@ -59,11 +59,11 @@ ul {
 }
 
 ul {
- list-style: none; 
+  list-style: none;
 }
 
 li {
-  margin-top: 12px; 
+  margin-top: 12px;
 }
 
 li::before {
@@ -161,14 +161,14 @@ nav a:hover {
 }
 
 .post:first-child,
-.post:nth-child(5),
+.post:nth-child(3),
 .category:first-child {
   border-bottom: 1px solid var(--colour-light);
   padding-bottom: 24px;
 }
 
 .post:nth-child(2),
-.post:nth-child(6),
+.post:nth-child(4),
 .category {
   margin-top: 24px;
 }
@@ -178,7 +178,7 @@ nav a:hover {
 }
 
 .category li {
-  margin: initial; 
+  margin: initial;
 }
 
 .details {
