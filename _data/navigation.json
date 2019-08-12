@@ -1,6 +1,10 @@
 [{
-  "name": "All Posts",
+  "name": "Index",
   "link": "/"
+},
+{
+  "name": "Categories",
+  "link": "/categories.html"
 },
 {
   "name": "About",
