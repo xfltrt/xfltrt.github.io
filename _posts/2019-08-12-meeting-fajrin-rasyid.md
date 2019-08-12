@@ -19,6 +19,5 @@ I first opted out from asking any questions and let Vanessa and Nurul lead the c
 - He had worked as a consultant for one year and decided that it wasn’t for Him. He said it is much more interesting for him to work on what turned into Bukalapak.
 - When first designing the system, they focused on statistics. From experience, they knew it’s important to look at the numbers from the start.
 - KPI should be the guideline for system design and delegation process.
--
 
 I’ve also asked if there’s any person or books in particular that he sees as inspirations. He told me he tries to read 2 books a month. Vanessa asked if he puts conscious effort into writing his blog. Which inspired me to continue writing. Thus this blog.
