@@ -50,8 +50,20 @@ ul {
   margin-top: 24px;
 }
 
+ul {
+ list-syle: none; 
+}
+
 li {
   margin-top: 12px; 
+}
+
+li::before {
+  content: "•";
+  color: var(--colour-gray);
+  display: inline-block;
+  margin-left: -1em;
+  width: 1em;
 }
 
 p:last-of-type,
