@@ -2,5 +2,10 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
-<p class="details">Posted on {{ page.date | date_to_long_string }}</p>
+<p class="details">Posted on {{ page.date | date_to_long_string }} in 
+  {% for category in page.categories %}
+    <a href="{{ site.baseurl }}/categories.html/#{{ category }}">{{ category | capitalize}}</a>
+    {% if forloop.last == false %}, {% endif %}
+  {% endfor %}
+</p>
 {{ content }}
