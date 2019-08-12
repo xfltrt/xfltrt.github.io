@@ -63,18 +63,18 @@ nav {
 }
 
 nav a {
-  color: var(--colour-gray);
+  color: var(--colour-dark);
   margin-left: 24px;
   padding-bottom: 4px;
   text-decoration: none;
 }
 
 nav a:hover {
-  color: var(--colour-dark);
+  color: var(--colour-gray);
 }
 
 #logo {
-  background: var(--colour-gray);
+  background: var(--colour-dark);
   color: var(--colour-white);
   border-radius: 2px;
   float: left;
@@ -117,7 +117,7 @@ nav a:hover {
 }
 
 .details {
-  color: var(--colour-light);
+  color: var(--colour-gray);
   font-size: 0.85rem;
   margin-top: 2px;
 }
