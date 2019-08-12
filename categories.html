@@ -2,18 +2,23 @@
 layout: default
 title: Categories
 ---
-<h2>Categories</h2>
-<ul>
+<div id="categories">
+  <div class="category">
+    <h2>Categories</h2>
+    <ul>
+      {% for category in site.categories %}
+        <li><a href="#{{ category[0] }}">{{ category[0] | capitalize }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
   {% for category in site.categories %}
-    <li><a href="#{{ category[0] }}">{{ category[0] | capitalize }}</a></li>
+    <div class="category">
+      <h3 id="{{ category[0] }}">{{ category[0] | capitalize }}</h3>
+      <ul>
+        {% for post in category.last %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
   {% endfor %}
-</ul>
-
-{% for category in site.categories %}
-  <h3 id="{{ category[0] }}">{{ category[0] | capitalize }}</h3>
-  <ul>
-    {% for post in category.last %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+</div>
