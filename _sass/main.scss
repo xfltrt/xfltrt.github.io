@@ -107,6 +107,7 @@ footer a:hover {
 
 #logo {
   background: var(--colour-dark);
+  background-image: url("/images/logo-bg.jpg");
   color: var(--colour-white);
   border-radius: 2px;
   float: left;
@@ -115,9 +116,9 @@ footer a:hover {
   height: 36px;
   line-height: 36px;
   overflow: hidden;
-  padding: 0 8px;
   position: relative;
   text-align: center;
+  width: 36px;
 }
 
 .current {
