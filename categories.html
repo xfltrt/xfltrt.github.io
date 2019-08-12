@@ -2,16 +2,17 @@
 layout: default
 title: Categories
 ---
+{% assign categories = site.categories | sort %}
 <div id="categories">
   <div class="category">
     <h2>Categories</h2>
     <ul>
-      {% for category in site.categories %}
+      {% for category in categories %}
         <li><a href="#{{ category[0] }}">{{ category[0] | capitalize }}</a></li>
       {% endfor %}
     </ul>
   </div>
-  {% for category in site.categories %}
+  {% for category in categories %}
     <div class="category">
       <h3 id="{{ category[0] }}">{{ category[0] | capitalize }}</h3>
       <ul>
