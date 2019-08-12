@@ -51,7 +51,7 @@ ul {
 }
 
 ul {
- list-syle: none; 
+ list-style: none; 
 }
 
 li {
@@ -59,7 +59,7 @@ li {
 }
 
 li::before {
-  content: "•";
+  content: "\2022";
   color: var(--colour-gray);
   display: inline-block;
   margin-left: -1em;
