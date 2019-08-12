@@ -5,9 +5,14 @@ title: Fitri Ali
 <div id="posts">
   {% for post in site.posts %}
   <div class="post clearfix">
-    {% if forloop.index0 < 5 %}
+    {% if forloop.index0 < 3 %}
       <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-      <p class="details">Posted on {{ post.date | date_to_long_string }}</p>
+      <p class="details">Posted on {{ post.date | date_to_long_string }} in 
+        {% assign categories = post.categories | sort %}
+        {% for category in categories %}
+          <a href="{{ site.baseurl }}/categories.html#{{ category }}">{{ category | capitalize}}</a>{% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+      </p>
       {% if forloop.first %}
         {{ post.excerpt }}
       {% endif %}
