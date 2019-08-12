@@ -15,10 +15,10 @@ layout: default
   <div class="post">
     <div class="page-navigation">
       {% if page.previous.url %}
-      <a class="prev" href="{{page.previous.url}}"><span class="details">Read Previous</span>{{page.previous.title}}</a>
+        <span class="details">Read Previous</span><a class="prev" href="{{page.previous.url}}">{{page.previous.title}}</a>
       {% endif %}
       {% if page.next.url %}
-        <a class="next" href="{{page.next.url}}"><span class="details">Read Next</span>{{page.next.title}}</a>
+        <span class="details">Read Next</span><a class="next" href="{{page.next.url}}">{{page.next.title}}</a>
       {% endif %}
     </div>
   </div>
