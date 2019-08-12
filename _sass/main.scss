@@ -1,7 +1,9 @@
 :root {
-  --colour-dark: #09203f;
-  --colour-gray: #d5d5d5;
-  --colour-primary: #09203f;
+  --colour-dark: #252c41;
+  --colour-gray: #dddfe6;
+  --colour-light: #f4f5f9;
+  --colour-highlight: #f1404b;
+  --colour-primary: #252c41;
   --colour-white: #ffffff;
   --font-primary: "Raleway", sans-serif;
   --font-secondary: "Volkhov", sans-serif;
@@ -49,6 +51,10 @@ li {
 p:last-of-type,
 p:last-child {
   margin-bottom: 0;
+}
+
+a{
+  background: var(--colour-highlight);
 }
 
 nav {
@@ -121,7 +127,6 @@ footer {
 }
 
 footer a {
-  background: rgba(0,0,0,0.1);
   border-radius: 5px;
   font-size: 0.85rem;
   color: var(--colour-dark);
