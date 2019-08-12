@@ -5,13 +5,16 @@ title: Fitri Ali
 <div id="posts">
   {% for post in site.posts %}
   <div class="post">
-      <div>
-        <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-        <p class="details">Posted on {{ post.date | date_to_long_string }}</p>
-        {% if forloop.first %}
-          {{ post.excerpt }}
-        {% endif %}
-      </div>
+    {% if forloop.index0 < 3 %}
+      <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+      <p class="details">Posted on {{ post.date | date_to_long_string }}</p>
+      {% if forloop.first %}
+        {{ post.excerpt }}
+      {% endif %}
+    {% else %}
+      <div class="post-date">{{ post.date | date: "%Y, %b %d" }}</div>
+      <div class="post-title"><h2>{{ post.title }}</h2></div>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
