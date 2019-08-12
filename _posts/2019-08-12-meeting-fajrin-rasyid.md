@@ -2,7 +2,7 @@
 layout: post
 published: true
 category: entrepreneurship
-title: Meetin Fajrin Rasyid, Co-Founder of Bukalapak
+title: Meeting Fajrin Rasyid, Co-Founder of Bukalapak
 ---
 I had the opportunity to meet and talk with Fajrin Rasyid, co-founder and CEO of Bukalapak, last week. It was on a breakfast meeting organised by young entrepreneur association Brunei (YEAB). A couple weeks before, I chanced a meeting with Fatin, the president of YEAB.
 
