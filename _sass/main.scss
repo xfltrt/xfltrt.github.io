@@ -107,8 +107,9 @@ footer a:hover {
 
 #logo {
   background: var(--colour-dark);
+  background-image: url("https://picsum.photos/36/36?blur");
   color: var(--colour-white);
-  border-radius: 36%;
+  border-radius: 2px;
   float: left;
   font-family: var(--font-secondary);
   font-size: 1.2rem;
