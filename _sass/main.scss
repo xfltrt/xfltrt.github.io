@@ -39,6 +39,7 @@ li {
   line-height: 1.65rem;
 }
 
+h3,
 p,
 ul {
   margin-top: 24px;
@@ -106,14 +107,20 @@ nav a:hover {
   margin-top: 8px;
 }
 
-.post:first-child {
+.post:first-child,
+.category:first-child {
   border-bottom: 1px solid var(--colour-light);
   margin-top: 0;
   padding-bottom: 24px;
 }
 
-.post:nth-child(2) {
+.post:nth-child(2),
+.category {
   margin-top: 24px;
+}
+
+.category li {
+  margin: initial; 
 }
 
 .details {
