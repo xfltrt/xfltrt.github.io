@@ -54,7 +54,7 @@ p:last-child {
 }
 
 a{
-  background: var(--colour-highlight);
+  color: var(--colour-highlight);
 }
 
 nav {
@@ -127,9 +127,9 @@ footer {
 }
 
 footer a {
+  background: var(--colour-light);
   border-radius: 5px;
   font-size: 0.85rem;
-  color: var(--colour-dark);
   margin-right: 8px;
   padding: 2px 8px;
   text-decoration: none;
