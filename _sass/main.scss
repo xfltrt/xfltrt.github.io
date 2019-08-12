@@ -183,6 +183,23 @@ footer a:hover {
   margin-top: 2px;
 }
 
+.page-navigation {
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.page-navigation a {
+  display: block;
+  float: left;
+  width: 50%;
+  margin-top: 48px;
+}
+
+.page-navigation .next {
+  text-align: right;
+}
+
 footer {
   padding: 48px 0 24px 0;
 }
