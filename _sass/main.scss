@@ -192,11 +192,12 @@ footer a:hover {
 .page-navigation a {
   display: block;
   float: left;
-  width: 50%;
+  width: 45%;
   margin-top: 48px;
 }
 
 .page-navigation .next {
+  float: right;
   text-align: right;
 }
 
