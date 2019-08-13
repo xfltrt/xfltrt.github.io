@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-categories: [Programming 101, Z]
+category: programming
 title: A Programming Primer
 ---
 [ To-do: Write article ]
