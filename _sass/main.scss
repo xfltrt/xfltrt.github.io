@@ -42,7 +42,6 @@ h5,
 h6 {
   color: var(--colour-dark);
   font-family: var(--font-secondary);
-  line-height: 1.65em;
   margin: 0;
   padding: 0;
 }
@@ -51,16 +50,6 @@ p,
 ul,
 li {
   line-height: 1.65rem;
-}
-
-p::first-line,
-h1::first-line,
-h2::first-line,
-h3::first-line,
-h4::first-line,
-h5::first-line,
-h6::first-line { 
-  line-height: 100%;
 }
 
 h3,
