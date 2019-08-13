@@ -2,7 +2,7 @@
 layout: post
 published: true
 category: programming 101
-title: "Programming Primer: Overcoming the Barrier of Learning How to Code"
+title: "Programming Primer: Introduction to Programming, in English Please!"
 ---
 Like any spoken language, programming language has its own syntax and semantics. This mean that it has its own set of vocabulary and sentence structure. Syntax or vocabulary are words that the computer understands. Semantics help the computer make sense of the instruction. A program or a script is a set of instructions. Sections or the whole of the program are codes.
 
