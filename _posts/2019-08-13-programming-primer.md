@@ -1,8 +1,8 @@
 ---
 layout: post
 published: true
-category: programming 101
-title: "Programming Primer: Introduction to Programming, in English Please!"
+category: development
+title: "Introduction to Programming, in English"
 ---
 Like any spoken language, programming language has its own syntax and semantics. This mean that it has its own set of vocabulary and sentence structure. Syntax or vocabulary are words that the computer understands. Semantics help the computer make sense of the instruction. A program or a script is a set of instructions. Sections or the whole of the program are codes.
 
@@ -17,5 +17,3 @@ As in spoken language, intonation plays a role too. It tells us if a sentence is
 There‘s no use for words if there are no stories. And stories are essentially information. Information is data. There are many types of data in programming, there are _characters_ and _numbers_ to name a few. We can also give a reference or name to a piece of data. You don’t need to say “The guy who always wear a black t-shirt” every time you refer to me, you can call me by my name _Fitri_.
 
 Finally, like spoken language, programming is not impossible to learn. There are sentences that are hard to understand, especially if we have not heard them before. We refer to dictionaries (documentations), examples, or even videos. All you need is the willingness to learn.
-
-Learning to program is like having a very smart friend that’s willing to do anything you ask them to. You only need to be able to communicate it to them and give them the resources they need. _Luckily, there are libraries_.
