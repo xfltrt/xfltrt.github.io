@@ -1,1 +1,2 @@
 description: A blog by Fitri Ali
+permalink: /:year/:month/:title:output_ext
