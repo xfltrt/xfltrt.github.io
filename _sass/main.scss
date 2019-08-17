@@ -232,6 +232,10 @@ footer a:hover {
   margin: initial;
 }
 
+.category-link {
+  text-transform: capitalize;
+}
+
 .details {
   color: var(--colour-gray);
   font-size: 0.85rem;
