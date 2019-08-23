@@ -10,7 +10,9 @@ For a while, this was fine until I grew tired of having to test the same thing o
 
 The Laravel Docs cover pretty much all you need to know. To start building your Test, you just need to run:
 
-`php artisan make:test ThingToTest`
+``` bash
+php artisan make:test ThingToTest
+```
 
 This creates a file called ThingsToTest inside the `tests/features` folder. My application requires some *seeds* and I need to *refresh database* before running the test so I added these to my test file:
 
