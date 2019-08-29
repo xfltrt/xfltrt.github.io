@@ -4,7 +4,7 @@ published: true
 category: contemplation
 title: Another Year without Career Progression
 ---
-Some of my peers were promoted today. I have been actively voicing out my wish for a career progression in recent years. When the news came out today, I felt a tinge of sadness. Do I feel like I deserve a promotion? yes. Realistically, I know others who work harder than me. But I also know for a fact that I've contributed in many areas throughout the years.
+Some of my peers were promoted today. I have been actively voicing out my wish for a career progression in recent years. When the news came out today and my name not in it, I felt a tinge of sadness. Do I feel like I deserve a promotion? yes. Realistically, I know others who work harder than me. But I also know for a fact that I've contributed in many areas throughout the years.
 
 When my colleague asked if I'm sad, I shrugged it off. Honestly, it feels like missing a bus. Except the bus comes only every other year. Maybe my grief is not so much that I missed the bus. But the fact that I've literraly asked if there's anything I can do to get to the next level. I couldn't get a concrete answer. It is what it is.
 
