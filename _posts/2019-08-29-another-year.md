@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 category: contemplation
 title: Another Year without Career Progression
 ---
