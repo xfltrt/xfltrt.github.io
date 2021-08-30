@@ -2,7 +2,7 @@
 layout: post
 published: true
 category: development
-title: That Personal Project I have not Finished
+title: That Personal Project I Have Not Finished
 ---
 Right about a year ago, I started work on a personal project. The premise was simple, a URL shortener on steroids. It would work like any other existing service out there except you can set conditions to the links. Say, forward the first 100 visitors to site A, and the rest to site B. Or forward to site A only if the click is before set date.
 
@@ -17,3 +17,5 @@ Lately, there have been some interest in this specific project. I’m going to g
 The dilemma is whether to restart from scratch or to proceed with the existing codebase. I had a look and I’m quite impressed with how well things are thought through in the backend. Unfortunately, the codes are not documented well. I have to retrace functions from the router, and reverse engineer some algorithms.
 
 I wish I had pushed through last year, but regardless, I’m happy to be back on track. Looking forward to sprint through a simplified version of this project.
+
+*Update:* I have stopped working on this project but you can find the source code [here](https://github.com/xfltrt/urbnlink) (https://github.com/xfltrt/urbnlink).
